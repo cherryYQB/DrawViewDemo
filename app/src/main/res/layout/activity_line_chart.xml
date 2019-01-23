@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Line.LineChartActivity">
+
+    <yqb.com.example.drawviewdemo.Line.LineChartView
+        android:id="@+id/lineChartView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:xylinecolor="#ffe2e2e2"
+        app:xylinewidth="1dp"
+        app:xytextcolor="#ff7e7e7e"
+        app:xytextsize="12dp"
+        app:linecolor="#ff02bbb7"
+        app:interval="50dp"
+        app:bgcolor="#ffffffff"/>
+
+</LinearLayout>
